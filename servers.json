@@ -1,0 +1,61 @@
+[
+    {
+        "width": "300px",
+        "height": "250px",
+        "imageHeight": "100px"
+    },
+    {
+        "title": "DrieBananen server",
+        "description": "Official DrieBananen discord server",
+        "link": "https://discord.gg/Driebananen",
+        "image": "assets/Driebananen.png"
+    },
+    {
+        "title": "STMN Esports",
+        "description": "Official STMN discord server",
+        "link": "https://discord.gg/STMN",
+        "image": "assets/STMN.png"
+    },
+    {
+        "title": "OverChargers",
+        "description": "Discord server for a mo.co group",
+        "link": "https://discord.gg/PG6jNquPQW",
+        "image": "assets/placeholder.png"
+    },
+    {
+        "title": "Mechaboy's home",
+        "description": "Official Mechaboy discord server",
+        "link": "https://discord.gg/at6RPqjfYQ",
+        "image": "assets/mechaboy.png"
+    },
+    {
+        "title": "Brawl Stars Power 1",
+        "description": "A community for people that have Power 1 accounts in Brawl Stars",
+        "link": "https://discord.gg/gEtvCDZ2vY",
+        "image": "assets/placeholder.png"
+    },
+    {
+        "title": "InfBS Gang",
+        "description": "Official InfBS discord server",
+        "link": "https://discord.gg/2575QwnRcp",
+        "image": "assets/placeholder.png"
+    },
+    {
+        "title": "Mewtu's Family",
+        "description": "Official Mewtu discord server",
+        "link": "https://discord.gg/UwnUemSNkd",
+        "image": "assets/placeholder.png"
+    },
+    {
+        "title": "Lordinvasionbrwl",
+        "description": "Official Lordinvasion discord server",
+        "link": "https://discord.gg/Spa9VU6SP3",
+        "image": "assets/placeholder.png"
+    },
+    {
+        "title": "Flipiee's server",
+        "description": "Official Flipiee discord server",
+        "link": "https://discord.gg/KB9qu6sVam",
+        "image": "assets/placeholder.png"
+    }
+]

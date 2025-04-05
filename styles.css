@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    padding-bottom: 3rem; /* Add padding to the bottom of the body to make space for the footer */
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 2rem;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Discord Servers Subsite Styles */
+#discord {
+    background-color: #f4f4f4;
+}
+
+#server-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 3rem; /* Add margin to the bottom of the server container */
+}
+
+.server-panel {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 10px;
+    background-color: #fff;
+    position: relative; /* Ensure relative positioning for child elements */
+    overflow: hidden; /* Hide overflow to respect border-radius */
+}
+
+.server-panel h2 {
+    margin-top: 0;
+}
+
+.server-panel img {
+    width: 100%; /* Ensure the image fills the width of the panel */
+    height: auto; /* Maintain aspect ratio */
+    position: absolute; /* Position the image absolutely */
+    bottom: 0; /* Anchor the image to the bottom of the panel */
+    left: 0; /* Align the image to the left edge */
+    border-bottom-left-radius: 10px; /* Apply the same border-radius as the panel */
+    border-bottom-right-radius: 10px; /* Apply the same border-radius as the panel */
+}
+
+.server-panel img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50%; /* Adjust the height to control the fade effect */
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0));
+    pointer-events: none; /* Ensure the gradient does not interfere with clicks */
+}
+
+#server-featured-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+/* Button Styles */
+.button {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-top: 1rem; /* Add margin to create space above the button */
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
