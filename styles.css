@@ -4,23 +4,33 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    padding-bottom: 3rem; /* Add padding to the bottom of the body to make space for the footer */
+    padding-top: 4rem; /* Add padding to the top to account for the fixed header */
+    padding-bottom: 3rem; /* Add padding to the bottom to make space for the footer */
 }
 
 header {
     background-color: #333;
     color: white;
     padding: 1rem;
+    position: fixed; /* Make the header fixed */
+    width: 100%; /* Ensure the header spans the full width of the page */
+    top: 0; /* Position the header at the top */
+    z-index: 1000; /* Ensure the header is above other elements */
+    display: flex;
+    justify-content: space-between; /* Space out the content */
+    align-items: center; /* Center the content vertically */
 }
 
 nav ul {
     list-style: none;
     padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
 }
 
 nav ul li {
     display: inline;
-    margin-right: 1rem;
 }
 
 nav ul li a {
@@ -30,6 +40,16 @@ nav ul li a {
 
 nav ul li a:hover {
     text-decoration: underline;
+}
+
+#socials-container {
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 2rem; /* Add margin to the right to move the icons to the left */
+}
+
+#socials-container img {
+    cursor: pointer;
 }
 
 section {

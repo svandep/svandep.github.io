@@ -1,0 +1,11 @@
+{
+    "width": "50px",
+    "height": "50px",
+    "socials": [
+        {
+            "name": "TikTok",
+            "link": "https://tiktok.com/@svandep",
+            "image": "assets/Tiktok.png"
+        }
+    ]
+}
