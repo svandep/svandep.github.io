@@ -5,6 +5,12 @@
         "imageHeight": "100px"
     },
     {
+        "title": "Ash Brawl Stars Community",
+        "description": "Official AshBs discord server",
+        "link": "https://discord.gg/Brawl",
+        "image": "assets/placeholder.png"
+    },
+    {
         "title": "DrieBananen server",
         "description": "Official DrieBananen discord server",
         "link": "https://discord.gg/3NCxZXTmu4",
@@ -15,12 +21,6 @@
         "description": "Official STMN discord server",
         "link": "https://discord.gg/STMN",
         "image": "assets/STMN.png"
-    },
-    {
-        "title": "OverChargers",
-        "description": "Discord server for a mo.co group",
-        "link": "https://discord.gg/PG6jNquPQW",
-        "image": "assets/placeholder.png"
     },
     {
         "title": "Mechaboy's home",
@@ -59,3 +59,4 @@
         "image": "assets/placeholder.png"
     }
 ]
+
